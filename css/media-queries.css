@@ -1,0 +1,342 @@
+@media (min-width: 576px) {
+    .search-icon {
+        position: absolute;
+        width: 45px;
+        right: 45px;
+        top: 0;
+        bottom: 0;
+        background-color: #5106b4;
+    }
+
+    .search-icon a {
+        color: white;
+    }
+
+    .drop-down-menu {
+        position: absolute;
+        width: 45px;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 1000;
+        justify-content: center;
+        align-items: center;
+        background: #acb6e5
+    }
+
+    .drop-down-menu i {
+        color: #fff;
+    }
+
+    .video {
+        background-image: url(../images/video3.jpg);
+        background-position: 0 50%;
+    }
+
+    .video-btn {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .video-btn a i {
+        font-size: 3vw;
+        margin-left: 0.3vw;
+    }
+
+    .footer-copyright {
+        font-size: 2vw;
+    }
+
+    .footer-social-media a {
+        font-size: 5vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .slider-btn {
+        font-size: 1.2vw;
+    }
+
+    .popular-container {
+        display: grid;
+        margin: 1vw 10vw;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(29, 10vw);
+        gap: 1vw;
+    }
+
+    .popular-img-info {
+        bottom: 1vw;
+    }
+
+    .australia {
+        grid-area: 1/1/5/5;
+    }
+
+    .canada {
+        grid-area: 1/5/3/9;
+    }
+
+    .iceland {
+        grid-area: 3/5/5/9;
+    }
+
+    .croatia {
+        grid-area: 5/6/8/9;
+    }
+
+    .india {
+        grid-area: 5/1/8/6;
+    }
+
+    .tehran {
+        grid-area: 8/1/12/9;
+    }
+
+    .egypt {
+        grid-area: 12/1/16/5;
+    }
+
+    .florida {
+        grid-area: 12/5/15/9;
+    }
+
+    .isfahan {
+        grid-area: 15/5/20/9;
+    }
+
+    .italy1 {
+        grid-area: 16/1/20/5;
+    }
+
+    .tokyo {
+        grid-area: 20/1/24/9;
+    }
+
+    .ireland {
+        grid-area: 24/1/27/5;
+    }
+
+    .italy2 {
+        grid-area: 24/5/29/9;
+    }
+
+    .shiraz {
+        grid-area: 27/1/32/5;
+    }
+
+    .china {
+        grid-area: 29/5/32/9;
+    }
+
+    .popular-img-info h4 {
+        font-size: 2.5vw;
+    }
+
+    .australia h4,
+    .canada h4,
+    .china h4,
+    .croatia h4,
+    .egypt h4,
+    .iceland h4,
+    .ireland h4 {
+        font-size: 2vw;
+    }
+
+    .video-btn:hover {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    nav li {
+        display: inline-block;
+    }
+
+    .drop-down-menu {
+        display: none;
+    }
+
+    .search-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-top: 8px;
+        cursor: pointer;
+        transition: .4s;
+    }
+
+    .search-icon:hover {
+        transform: translateX(-1vw);
+    }
+
+    .video-btn {
+        width: 6vw;
+        height: 6vw;
+    }
+
+    .video-btn a i {
+        font-size: 2vw;
+        margin-left: 0.3vw;
+    }
+
+    .footer-copyright {
+        font-size: 1.2vw;
+    }
+
+    .footer-social-media a {
+        font-size: 3vw;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .search-bar {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .search-form {
+        flex-direction: row;
+    }
+
+    .search-bar h2 {
+        font-size: 1.4vw;
+        font-weight: 400;
+        margin: 0 2vw 0 1vw;
+    }
+
+    .search-form input {
+        padding: 1.5vw 2vw;
+    }
+
+    .search-form button {
+        padding: 0.7vw 2.5vw;
+        font-size: 1.6vw;
+        margin-left: 1vw;
+    }
+
+    .popular-description {
+        font-size: 1.5vw;
+    }
+
+
+    .popular-container {
+        margin: 1vw 10vw;
+        grid-template-columns: repeat(14, 1fr);
+        grid-template-rows: repeat(21, 6vw);
+    }
+
+    .isfahan {
+        grid-area: 1/1/6/6;
+    }
+
+    .canada {
+        grid-area: 1/6/3/10;
+    }
+
+    .india {
+        grid-area: 1/10/4/15;
+    }
+
+    .china {
+        grid-area: 3/6/6/10;
+    }
+
+    .croatia {
+        grid-area: 4/10/7/15;
+    }
+
+    .tehran {
+        grid-area: 6/1/10/10;
+    }
+
+    .tokyo {
+        grid-area: 7/10/10/15;
+    }
+
+    .shiraz {
+        grid-area: 10/1/14/5;
+    }
+
+    .ireland {
+        grid-area: 10/9/13/15;
+    }
+
+    .egypt {
+        grid-area: 10/5/14/9;
+    }
+
+    .italy2 {
+        grid-area: 13/9/17/12;
+    }
+
+    .italy1 {
+        grid-area: 13/12/17/15;
+    }
+
+    .florida {
+        grid-area: 14/1/18/9;
+    }
+
+    .australia {
+        grid-area: 17/9/22/15;
+    }
+
+    .iceland {
+        grid-area: 18/1/22/9;
+    }
+
+    .zoom-effect-container {
+        overflow: hidden;
+    }
+
+    .image-card img {
+        transition: 0.4s ease;
+    }
+
+    .zoom-effect-container:hover .image-card img {
+        transform: scale(1.08);
+    }
+
+
+    .popular-img-info h4 {
+        font-size: 1.2vw;
+        color: #4c4c4c;
+        transition: .4s;
+        bottom: 0;
+    }
+
+    article:hover .popular-img-info h4 {
+        transform: translateY(-10px);
+        color: #fff;
+    }
+
+    .newsletter-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .newsletter-container h3 {
+        font-size: 2vw;
+        margin-right: 5vw;
+    }
+
+    .newsletter-btn {
+        margin-left: 1vw;
+    }
+
+    .mail-form {
+        display: block;
+    }
+
+    .newsletter-text {
+        margin-top: 0;
+        margin-right: 10px;
+    }
+
+}
